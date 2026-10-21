@@ -521,6 +521,50 @@ export function Portfolio() {
                   </div>
                 </div>
               </article>
+
+              <article className="project">
+                <div className="project-art book-art" aria-hidden="true">
+                  <div className="book-cover">
+                    Pensée
+                    <br />
+                    Action
+                    <br />
+                    <span className="text-primary">Observation.</span>
+                    <small>MOÏSE LOUIS HOUNKPE</small>
+                  </div>
+                </div>
+                <div className="project-content">
+                  <span className="project-tag">{t(content.writinged)}</span>
+                  <h3 className="project-title">Pensée & Action & Observation</h3>
+                  <p className="section-copy">{t(content.bookDescriptioned)}</p>
+                  <div className="project-footer">
+                    <span>
+                      {t(
+                        text(
+                          "FINTECH · CLASSE IA SOLUTION ENTREPRISE",
+                          "FINTECH · ENTERPRISE AI SOLUTION CATEGORY",
+                          "FINTECH · SOLUCIÓN EMPRESARIAL DE CLASE IA",
+                        ),
+                      )}
+                    </span>
+                    <Button variant="ghost" size="icon" asChild>
+                      <a
+                        href="#contact"
+                        aria-label={t(
+                          text(
+                            "Échanger sur le projet",
+                            "Discuss the project",
+                            "Hablar sobre el proyecto",
+                          ),
+                        )}
+                        title="Pensée & Action & Observation"
+                      >
+                        <ArrowUpRight />
+                      </a>
+                    </Button>
+                  </div>
+                </div>
+              </article>
             </div>
           </div>
         </section>
@@ -607,9 +651,9 @@ export function Portfolio() {
               </h2>
               <p className="section-copy">{t(content.contactCopy)}</p>
               <div className="contact-details">
-                <a href="mailto:moisehounkpe3@gmail.com">
+                <a href="mailto:hounkpemoiselouis@gmail.com">
                   <Mail size={16} className="text-primary" />
-                  moisehounkpe3@gmail.com
+                  hounkpemoiselouis@gmail.com
                 </a>
                 <a href="tel:+33759161212">
                   <Phone size={16} className="text-primary" />
