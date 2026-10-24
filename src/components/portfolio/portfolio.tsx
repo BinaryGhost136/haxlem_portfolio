@@ -345,9 +345,9 @@ export function Portfolio() {
                   <p className="section-copy mt-4">
                     {t(
                       text(
-                        "Coordinateur Programmation et Animation de l’Amicale des Anciens Élèves d’Adjarra depuis août 2025. Responsable étudiants à l’ENEAM en première et troisième année.",
-                        "Programming and Activities Coordinator for the Adjarra Alumni Association since August 2025. Student representative at ENEAM in the first and third years.",
-                        "Coordinador de Programación y Actividades de la Asociación de Antiguos Alumnos de Adjarra desde agosto de 2025. Representante estudiantil en ENEAM en primero y tercero.",
+                        "Coordinateur Programmation et Animation de l’Amicale des Anciens Élèves Don du Succès depuis août 2025. Responsable des étudiants à l’ENEAM en première et en troisième année.",
+                        "Programming and Activities Coordinator for the Don du Succès Alumni Association since August 2025. In charge of first- and third-year students at ENEAM.",
+                        "Coordinador de Programación y Animación de la Asociación de Antiguos Alumnos «Don du Succès» desde agosto de 2025. Responsable de los estudiantes de primer y tercer año en la ENEAM.",
                       ),
                     )}
                   </p>
