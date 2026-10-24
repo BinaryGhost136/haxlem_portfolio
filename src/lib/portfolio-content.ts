@@ -20,9 +20,9 @@ export const content = {
     "Estudiante de Ciencias de Gestión · IAE Tours",
   ),
   founder: text(
-    "Fondateur du Groupe HAXELM Financial Intelligence Hub",
-    "Founder of Groupe HAXELM Financial Intelligence Hub",
-    "Fundador de Groupe HAXELM Financial Intelligence Hub",
+    "Initiation HAXELM Financial Intelligence Hub",
+    "Introduction to HAXELM Financial Intelligence Hub",
+    "Introducción al centro de inteligencia financiera HAXELM",
   ),
   contact: text("Prenons contact", "Let’s connect", "Hablemos"),
   cv: text("Télécharger mon CV", "Download my CV", "Descargar mi CV"),
@@ -49,7 +49,7 @@ export const content = {
     "Del crédito a la auditoría interna, mi experiencia en banca y microfinanzas ha forjado un enfoque riguroso del análisis financiero. Hoy desarrollo esta experiencia en la intersección entre finanzas, tecnología e inteligencia artificial.",
   ),
   values: text(
-    "Rigueur, discrétion professionnelle et sens des responsabilités guident mon travail. Avec HAXELM, je porte des projets tournés vers l’intelligence financière et l’ingénérie des données.",
+    "Rigueur, discrétion professionnelle et sens des responsabilités guident mon travail. Avec HAXELM, je porte des projets tournés vers l’intelligence financière et l'ingénierie des données.",
     "Rigour, professional discretion and responsibility guide my work. Through HAXELM, I am developing projects focused on financial intelligence and data engineering.",
     "El rigor, la discreción profesional y la responsabilidad guían mi trabajo. Con HAXELM, impulso proyectos de inteligencia financiera y la ingeniería de datos.",
   ),
@@ -91,11 +91,11 @@ export const content = {
   inProgress: text("En développement", "In development", "En desarrollo"),
   writing: text("En cours de rédaction", "Writing in progress", "En proceso de escritura"),
   writinged: text("En cours de développement", "In development", "En desarrollo"),
-  axeDescription: text(
-    "Une plateforme de tontine digitale et d’épargne collective, portée par le Groupe HAXELM. Un projet à la rencontre de la finance et de l’innovation.",
-    "A digital rotating savings and collective savings platform developed by Groupe HAXELM. A project at the intersection of finance and innovation.",
-    "Una plataforma digital de ahorro rotativo y colectivo impulsada por Groupe HAXELM. Un proyecto que combina finanzas e innovación.",
-  ),
+  // axeDescription: text(
+  //   "Une plateforme de tontine digitale et d’épargne collective, portée par le Groupe HAXELM. Un projet à la rencontre de la finance et de l’innovation.",
+  //   "A digital rotating savings and collective savings platform developed by Groupe HAXELM. A project at the intersection of finance and innovation.",
+  //   "Una plataforma digital de ahorro rotativo y colectivo impulsada por Groupe HAXELM. Un proyecto que combina finanzas e innovación.",
+  // ),
   bookDescription: text(
     "Un ouvrage en cours de rédaction autour du triptyque Projet – Profil – Profit : trois dimensions au cœur de ma réflexion entrepreneuriale.",
     "A book in progress exploring the Project – Profile – Profit triptych: three dimensions at the heart of my entrepreneurial thinking.",
@@ -331,8 +331,7 @@ export const qualifications = [
       "Certificate in Artificial Intelligence for All",
       "Certificado en Inteligencia Artificial para todos",
     ),
-    institution:
-      "FORCE-N & ADPME (Agence de Développement des Petites et Moyennes Entreprises), Cotonou · BÉNIN",
+    institution: "FORCE-N Sénégal",
   },
   {
     date: text("2021 — 2024", "2021 — 2024", "2021 — 2024"),

@@ -30,7 +30,7 @@ import {
 import portrait from "@/assets/moise.jpeg";
 import officePortrait from "@/assets/mo.jpeg";
 import writingPortrait from "@/assets/MMo.jpeg";
-import cv from "@/assets/cv.pdf";
+import cv from "@/assets/CV_Yémangnissè_Moïse_Louis_HOUNKPE.pdf";
 
 const photos = [portrait, officePortrait, writingPortrait];
 const links = ["about", "experience", "projects", "contact"];
@@ -455,7 +455,7 @@ export function Portfolio() {
               </span>
             </div>
             <div className="project-grid">
-              <article className="project">
+              {/* <article className="project">
                 <div className="project-art axesave-art" aria-hidden="true">
                   Axe<span>Save</span>
                 </div>
@@ -481,7 +481,7 @@ export function Portfolio() {
                     </Button>
                   </div>
                 </div>
-              </article>
+              </article> */}
               <article className="project">
                 <div className="project-art book-art" aria-hidden="true">
                   <div className="book-cover">
